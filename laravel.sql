@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2025 at 04:16 PM
+-- Generation Time: Feb 13, 2025 at 05:45 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -44,7 +44,8 @@ CREATE TABLE `childs` (
 --
 
 INSERT INTO `childs` (`id`, `name`, `identifier`, `gender`, `height`, `birthday`, `bloodtype`, `created_at`, `updated_at`) VALUES
-(1, 'Norman', '22194', 'Male', '175', 'March 21, 2034', 'B', '2025-02-13 02:03:28', '2025-02-13 02:03:28');
+(1, 'Norman', '22194', 'Male', '175', 'March 21, 2034', 'B', '2025-02-13 02:03:28', '2025-02-13 02:03:28'),
+(2, 'Emma', '63194', 'Female', '161', 'August 22, 2034', 'O', '2025-02-13 09:43:18', '2025-02-13 09:43:18');
 
 -- --------------------------------------------------------
 
@@ -184,7 +185,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `childs`
 --
 ALTER TABLE `childs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
