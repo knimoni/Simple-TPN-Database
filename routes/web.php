@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ChildController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/fetch-data', [Controller::class, 'fetchData']);
 Route::get('/', function () {
     return view('childs.index');
 });
